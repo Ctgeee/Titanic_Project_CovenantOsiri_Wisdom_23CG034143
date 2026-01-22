@@ -1,0 +1,52 @@
+<!-- Define the document type as HTML5 -->
+<!DOCTYPE html>
+<!-- Start the HTML document -->
+<html>
+<!-- Head section containing metadata -->
+<head>
+    <!-- Set the title of the webpage -->
+    <title>Titanic Survival Predictor</title>
+
+    <!-- Links the external CSS file to the html page -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<!-- Body section containing the visible content -->
+<body>
+    <!-- Main heading for the page -->
+    <h2>Titanic Survival Prediction</h2>
+
+    <!-- Form for user input, submits data via POST method -->
+    <form method="POST">
+        <!-- Label and input for passenger class -->
+        <label>Pclass:</label>
+        <input type="number" name="pclass" required><br>
+
+        <!-- Label and input for sex (0=Female, 1=Male) -->
+        <label>Sex (0=Female, 1=Male):</label>
+        <input type="number" name="sex" required><br>
+
+        <!-- Label and input for age -->
+        <label>Age:</label>
+        <input type="number" step="any" name="age" required><br>
+
+        <!-- Label and input for fare -->
+        <label>Fare:</label>
+        <input type="number" step="any" name="fare" required><br>
+
+        <!-- Label and input for embarked port (0=C, 1=Q, 2=S) -->
+        <label>Embarked (0=C, 1=Q, 2=S):</label>
+        <input type="number" name="embarked" required><br>
+
+        <!-- Submit button to send the form -->
+        <button type="submit">Predict</button>
+    </form>
+
+    <!-- Conditional block to display prediction result if available -->
+    {% if prediction %}
+        <!-- Heading to show the prediction result -->
+        <h3>Result: {{ prediction }}</h3>
+    {% endif %}
+<!-- End of body -->
+</body>
+<!-- End of HTML document -->
+</html>

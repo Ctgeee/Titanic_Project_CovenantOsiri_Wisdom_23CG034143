@@ -1,0 +1,10 @@
+# Flask web framework for building the web application
+flask
+# NumPy for numerical computations and array operations
+numpy
+# Pandas for data manipulation and analysis
+pandas
+# Scikit-learn for machine learning algorithms and preprocessing
+scikit-learn
+# Joblib for saving and loading machine learning models
+joblib

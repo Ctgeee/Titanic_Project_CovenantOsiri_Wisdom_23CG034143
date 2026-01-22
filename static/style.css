@@ -1,0 +1,118 @@
+/* General body styling */
+body {
+    /* Set the font family to Arial with sans-serif fallback */
+    font-family: Arial, sans-serif;
+    /* Set a light gray background color */
+    background-color: #f4f7f8;
+    /* Set text color to dark gray */
+    color: #333;
+    /* Center-align the text */
+    text-align: center;
+    /* Add padding of 50px around the body */
+    padding: 50px;
+}
+
+/* Header styling for h2 elements */
+h2 {
+    /* Set color to a dark blue-gray */
+    color: #2c3e50;
+    /* Add margin bottom of 30px */
+    margin-bottom: 30px;
+}
+
+/* Form styling */
+form {
+    /* Set background color to white */
+    background-color: #fff;
+    /* Add padding of 25px inside the form */
+    padding: 25px;
+    /* Round the corners with 10px radius */
+    border-radius: 10px;
+    /* Add a subtle shadow effect */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    /* Display the form as an inline block */
+    display: inline-block;
+    /* Align text to the left inside the form */
+    text-align: left;
+}
+
+/* Form labels styling */
+label {
+    /* Display labels as block elements */
+    display: block;
+    /* Add top margin of 15px */
+    margin-top: 15px;
+    /* Make the font bold */
+    font-weight: bold;
+}
+
+/* Input fields styling for number and text types */
+input[type="number"], input[type="text"] {
+    /* Set width to 100% of container */
+    width: 100%;
+    /* Add padding of 8px top/bottom and 10px left/right */
+    padding: 8px 10px;
+    /* Add top margin of 5px */
+    margin-top: 5px;
+    /* Set border to 1px solid light gray */
+    border: 1px solid #ccc;
+    /* Round the corners with 5px radius */
+    border-radius: 5px;
+    /* Include padding and border in width calculation */
+    box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+    /* Add top margin of 20px */
+    margin-top: 20px;
+    /* Add padding of 10px top/bottom and 20px left/right */
+    padding: 10px 20px;
+    /* Set background color to blue */
+    background-color: #3498db;
+    /* Set text color to white */
+    color: white;
+    /* Set font size to 16px */
+    font-size: 16px;
+    /* Remove default border */
+    border: none;
+    /* Round the corners with 5px radius */
+    border-radius: 5px;
+    /* Change cursor to pointer on hover */
+    cursor: pointer;
+    /* Set width to 100% */
+    width: 100%;
+}
+
+/* Button hover effect */
+button:hover {
+    /* Change background color to darker blue on hover */
+    background-color: #2980b9;
+}
+
+/* Prediction result heading styling */
+h3 {
+    /* Add top margin of 25px */
+    margin-top: 25px;
+    /* Set color to red */
+    color: #e74c3c;
+    /* Set font size to 20px */
+    font-size: 20px;
+}
+
+/* Responsive design for screens smaller than 500px */
+@media (max-width: 500px) {
+    /* Adjust body padding for small screens */
+    body {
+        /* Reduce padding to 20px */
+        padding: 20px;
+    }
+
+    /* Adjust form styling for small screens */
+    form {
+        /* Set width to 100% */
+        width: 100%;
+        /* Reduce padding to 20px */
+        padding: 20px;
+    }
+}

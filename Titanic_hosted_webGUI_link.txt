@@ -1,0 +1,11 @@
+# Student name and matriculation number
+Name: Covenant Osiri-Wisdom
+Matric Number: 23CG034143
+# Machine learning algorithm used for the model
+Machine Learning Algorithm Used: Random Forest Classifier
+# Method used to persist (save) the trained model
+Model Persistence Method: Joblib
+# URL where the web application is hosted live
+Live URL: https://your-app-link
+# Link to the GitHub repository containing the project code
+GitHub Repository: https://github.com/Ctgeee/Titanic_Project_CovenantOsiri_Wisdom_23CG034143.git
